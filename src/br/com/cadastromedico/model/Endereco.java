@@ -27,9 +27,14 @@ public class Endereco {
   private String bairroEndereco;
   private String cidadeEndereco;
   private String ufEndereco;
+  private Integer seqEndereco;
   private SituacaoEndereco situacaoEndereco;
   
-  public Endereco(String cepEndereco, String ruaEndereco, Integer numeroEndereco, String bairroEndereco, String cidadeEndereco, String ufEndereco, SituacaoEndereco situacaoEndereco) {
+  public Endereco() {
+    
+  }
+  
+  public Endereco(String cepEndereco, String ruaEndereco, Integer numeroEndereco, String bairroEndereco, String cidadeEndereco, String ufEndereco, SituacaoEndereco situacaoEndereco, Integer seqEndereco) {
     this.cepEndereco = cepEndereco;
     this.ruaEndereco = ruaEndereco;
     this.numeroEndereco = numeroEndereco;
@@ -37,6 +42,7 @@ public class Endereco {
     this.cidadeEndereco = cidadeEndereco;
     this.ufEndereco = ufEndereco;
     this.situacaoEndereco = situacaoEndereco;
+    this.seqEndereco = seqEndereco;
   }
 
   public String getCepEndereco() {
@@ -94,4 +100,12 @@ public class Endereco {
   public void setSituacaoEndereco(SituacaoEndereco situacaoEndereco) {
     this.situacaoEndereco = situacaoEndereco;
   }
+
+  public Integer getSeqEndereco() {
+    return seqEndereco;
+  }
+
+  public void setSeqEndereco(Integer seqEndereco) {
+    this.seqEndereco = seqEndereco;
+  }  
 }
