@@ -58,7 +58,7 @@ public class EnumsCorporativos {
     
     public String getSituacaoEndereco() {
       return situacaoEndereco;
-    } 
+    }    
   }
 
   public enum SituacaoConsulta{

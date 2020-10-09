@@ -36,13 +36,13 @@ public class Paciente {
     this.cpfPaciente = cpfPaciente;
     this.enderecoPaciente = enderecoPaciente;
   }
+  
+  public void setIdPaciente(int idPaciente) {
+    this.idPaciente = idPaciente;
+  }
 
   public Integer getIdPaciente() {
     return idPaciente;
-  }
-
-  public void setIdPaciente(Integer idPaciente) {
-    this.idPaciente = idPaciente;
   }
 
   public String getNomePaciente() {
